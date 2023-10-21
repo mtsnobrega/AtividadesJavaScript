@@ -1,3 +1,11 @@
+<!-- <p>Faça um programa que leia e valide as seguintes informações: <br>
+        Nome: maior que 3 caracteres; <br>
+        Idade: entre 0 e 150; <br>
+        Salário: maior que zero; <br>
+        Sexo: 'f' ou 'm'; <br>
+        Estado Civil: 's', 'c', 'v', 'd'; <br>
+        Dica: se sua variável é texto, o tamanho dela está armazenado em: texto.length</p> <br> -->
+        
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,14 +18,6 @@
 <body>
     <h1>Atividades em Javascript</h1>
     <h2>Exercício 01</h2>
-
-   <!-- <p>Faça um programa que leia e valide as seguintes informações: <br>
-        Nome: maior que 3 caracteres; <br>
-        Idade: entre 0 e 150; <br>
-        Salário: maior que zero; <br>
-        Sexo: 'f' ou 'm'; <br>
-        Estado Civil: 's', 'c', 'v', 'd'; <br>
-        Dica: se sua variável é texto, o tamanho dela está armazenado em: texto.length</p> <br> -->
 
     <form>
     <label for="name"  class="itens">Nome</label>
@@ -53,14 +53,30 @@
     <button type="button" onclick="idgender()" class="botao">Enviar</button>
     </form>
 
-    <ol>
-        <li id='result_name'></li>
-        <li id='result_years'></li>
-        <li id='result_money'></li>
-        <li id='result_gender'></li>
-        <li id='result_love'></li>
-    </ol>
-        
+<div class="conteiner">
+    <div class="caixa">
+        <h1>Nome</h1>
+        <p  id='result_name'></p>
+    </div>
+
+    <div class="caixa">
+        <h1>Idade</h1>
+        <p  id='result_years'></p>
+    </div>
+
+    <div class="caixa">
+        <h1>Salário</h1>
+        <p  id='result_money'></p>
+    </div>
+
+    <div class="caixa">
+        <h1>E. Cívil</h1>
+        <p  id='result_love'></p>
+    </div>
     
-    
+    <div class="caixa">
+        <h1>Gênero</h1>
+        <p id='result_gender'></p>
+    </div>
+</div>
 </html>
