@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 2em;
+}
+.colum{
+
+    background-color: #F27D16;
+    display: inline-block;
+    text-align: center;
+    width: 31.8%;
+    height: 500px;
+    margin: 10px;
+
+}
+.title{
+    text-align: center;
+    background-color: #F21616;
+    width: 483px;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    color: #6524BF;
+    font-size: 3em;
+}
+body{
+    background-image: linear-gradient(to left,#6524BF,#F2BF27);
+}
+
